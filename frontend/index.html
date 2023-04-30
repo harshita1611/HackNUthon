@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles.css">
+  <title>Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <p class="header">Get to know our creators. <a href=""><button class="learn-more">Learn More</button></a></p>
+  <h1>
+    I N T E R &bull; L I N K
+  </h1>
+  <form class="main">
+
+    <p class="slogan">
+      Making connections
+    </p>
+
+    <fieldset>
+      <p class="introduction">
+        Please fill out the following requirements: 
+      </p>
+    </fieldset>
+
+    <fieldset>  
+      <label for="ID">
+        Enter ID: <input id="ID" name="ID" type="text" required />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <div class="category">
+        <p>
+          Enter Protocol:
+        </p>
+      <div class="category-selector">
+        <label for="protocol-soap"><input id="protocol" type="radio" name="protocol" class="inline" />SOAP</label>
+        <label for="protocol-rest"><input id="protocol" type="radio" name="protocol" class="inline" />REST</label>
+        <label for="protocol-graphql"><input id="protocol" type="radio" name="protocol" class="inline" />graphQL</label>
+      </div>
+      
+    </fieldset>
+    
+    <fieldset>
+      <label for="name">
+        Name: <input id="name" name="name" type="text" required />
+      </label>
+    </fieldset>
+    
+    <fieldset>
+      <label for="email">
+        Enter Email: <input id="email" name="email" type="email" required />
+      </label>
+    </fieldset>
+
+    <fieldset>
+        <a href="../dashboard/index.html" class="submit-button">SUBMIT</a>
+    </fieldset>
+        
+        
+
+  </form>
+</body>
+</html>
