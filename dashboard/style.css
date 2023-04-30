@@ -1,0 +1,113 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+    background-image: url('downlaod\ side.svg');
+    background-size: cover;
+    color: aliceblue;
+    height: 100vh;
+}
+    
+.maincontainer {
+    /* display: grid;
+    grid-template-rows: 1fr 4fr 3fr;
+    grid-template-columns: 2fr 5fr;
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'aside main'; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar{
+    /* grid-area: header; */
+    height:8vh;
+    color: white;
+    font-family: monospace;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.navbar h1{
+    margin: 0.5% 0 0 1.5%;
+    font-size: 30px;
+}
+
+.textcontainer{
+    display: flex;
+    font-family: monospace;
+}
+
+.maintext{
+    /* grid-area: aside; */
+    height:92vh;
+    width: 48vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.maintext h1{
+    margin-bottom: 25%;
+    margin-left: 10%;
+}
+
+.bubbles{
+    /* background-color: blueviolet; */
+    width: 84vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    position: relative;
+    background-image: url('./images/blob-haikei.svg');
+    background-size: contain;
+}
+
+.mainbubble{
+    color: white;
+    /* background-color: #cfccc4; */
+    height: 15vw;
+    width: 30vw;
+    /* background-color: blue; */
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 30px;
+}
+
+.cbubbless{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+.childbubbles{
+    /* background-color: #e7b897; */
+    color: white;
+    height: 10vw;
+    width: 10vw;
+    margin: 2%;
+    border-radius: 30px;
+    /* background-color: coral; */
+    font-size: 20px;
+    
+}
