@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maincontainer{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.rightcontainer{
+    width: 85vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./layered-waves-haikei.svg');
+    background-size: cover;
+}
+
+.leftcontainer{
+    width: 15vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.leftcontainer h1{
+    margin-left: 11%;
+    font-family:monospace ;
+}
+
+.text {
+    color: whitesmoke;
+    margin-bottom: 205px;
+    margin-right: 580px;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.text h1{
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.text p{
+    margin-left: 40px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+/* .btn{
+    background-color: #d53867;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 350px;
+    height: 60px;
+    margin: 30px 0px 30px 0px;
+} */
+
+.btn2{
+    margin-top: -0px;
+}
+
+p .bottext {
+    margin-left: 300px;
+}
+
+.button{
+  background-color: #EEEEEE;
+  border-radius: 20px;
+  border: solid #000000;
+  opacity: solid;
+  color: #000000;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.15s;
+  font-family: monospace;
+  font-size: 25px;
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  text-decoration: none;
+  margin-bottom: -20px;
+  margin-top: 0;
+}
+
+.button:hover{
+  border: solid #CF0A0A;
+  background-color: #F2DEBA;
+  color: #CF0A0A;
+  border-color: #CF0A0A;
+
+}
